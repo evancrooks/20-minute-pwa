@@ -8,6 +8,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    // {
+    // resolve:`gatsby-plugin-offline`,
+    // options: {
+    //   precachePages: [`/UsingSSR`]
+    // }
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -28,4 +28,8 @@ const IndexPage = () => (
   </Layout>
 )
 
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('C:/Projects/PWADemo/20-min-pwa-tutorial/serviceWorker.js')
+}
+
 export default IndexPage
